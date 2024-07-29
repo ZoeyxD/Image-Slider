@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+   
+    <div class="slider" role="region" aria-label="Image Slider">
+        <div class="slides">
+            <img src="img/image1.jpg" class="slide" srcset="img/image1-480w.jpg 480w, img/image1-800w.jpg 800w, img/image1.jpg 1200w" sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px" loading="lazy" alt="Image 1">
+            <img src="img/image2.jpg" class="slide" srcset="img/image2-480w.jpg 480w, img/image2-800w.jpg 800w, img/image2.jpg 1200w" sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px" loading="lazy" alt="Image 2">
+            <img src="img/image3.jpg" class="slide" srcset="img/image3-480w.jpg 480w, img/image3-800w.jpg 800w, img/image3.jpg 1200w" sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px" loading="lazy" alt="Image 3">
+        </div>
+        <!-- Navigation buttons -->
+        <a class="prev" role="button" tabindex="0" aria-label="Previous slide">&#10094;</a>
+        <a class="next" role="button" tabindex="0" aria-label="Next slide">&#10095;</a>
+    </div>
+    <!-- Navigation dots -->
+    <div class="dots" role="navigation" aria-label="Slide navigation">
+        <span class="dot" tabindex="0" aria-label="Slide 1"></span>
+        <span class="dot" tabindex="0" aria-label="Slide 2"></span>
+        <span class="dot" tabindex="0" aria-label="Slide 3"></span>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
