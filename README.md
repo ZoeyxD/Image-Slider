@@ -8,7 +8,6 @@ This repository contains an image slider project built with HTML, CSS, and JavaS
 - [Usage](#usage)
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Installation
 
@@ -44,6 +43,7 @@ This repository contains an image slider project built with HTML, CSS, and JavaS
 
 ## Project Structure
 
+```
 ImageSlider/
 ├── node_modules/ # Installed Node.js modules
 ├── public/ # Public assets
